@@ -1,0 +1,14 @@
+{
+  "name": "minga-reels",
+  "displayName": "Minga · Reels",
+  "version": "1.0.0",
+  "description": "Eleven skills for Instagram Reels and YouTube Shorts in Russian and English: personas and AI characters, hooks scored by a local tool, timed scripts, captions, research, cleanup, plans, audits and replies. Nothing is posted for you.",
+  "author": {
+    "name": "dmminga1983",
+    "url": "https://github.com/dmminga1983"
+  },
+  "homepage": "https://github.com/dmminga1983/minga-reels",
+  "repository": "https://github.com/dmminga1983/minga-reels",
+  "license": "MIT",
+  "keywords": ["instagram", "reels", "youtube-shorts", "short-form-video", "content", "russian", "minga"]
+}

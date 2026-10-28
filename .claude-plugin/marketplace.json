@@ -1,0 +1,19 @@
+{
+  "name": "minga-reels",
+  "owner": {
+    "name": "dmminga1983",
+    "url": "https://github.com/dmminga1983"
+  },
+  "metadata": {
+    "description": "minga-reels: short-form video skills for Instagram Reels and YouTube Shorts."
+  },
+  "plugins": [
+    {
+      "name": "minga-reels",
+      "source": "./",
+      "description": "Personas, hooks, scripts, captions, research, cleanup, plans, audits and replies for Reels and Shorts, in Russian and English.",
+      "category": "productivity",
+      "tags": ["instagram", "reels", "shorts", "content"]
+    }
+  ]
+}

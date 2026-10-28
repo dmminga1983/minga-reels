@@ -1,0 +1,362 @@
+{
+ "version": 1,
+ "note": "The cleaning lexicon for reels-clean. 'delete' phrases carry no meaning and are removed automatically. 'flag' words are reported with a suggestion, because replacing them in Russian needs the right case and a human eye. Edit freely: if a word is yours, take it out.",
+ "invisible": [
+  [
+   "200B",
+   "zero-width space"
+  ],
+  [
+   "200C",
+   "zero-width non-joiner"
+  ],
+  [
+   "200D",
+   "zero-width joiner"
+  ],
+  [
+   "2060",
+   "word joiner"
+  ],
+  [
+   "FEFF",
+   "byte-order mark"
+  ],
+  [
+   "00AD",
+   "soft hyphen"
+  ],
+  [
+   "180E",
+   "Mongolian vowel separator"
+  ],
+  [
+   "2061",
+   "function application"
+  ],
+  [
+   "2062",
+   "invisible times"
+  ],
+  [
+   "2063",
+   "invisible separator"
+  ],
+  [
+   "2064",
+   "invisible plus"
+  ],
+  [
+   "202A",
+   "LTR embedding"
+  ],
+  [
+   "202B",
+   "RTL embedding"
+  ],
+  [
+   "202C",
+   "pop directional"
+  ],
+  [
+   "202D",
+   "LTR override"
+  ],
+  [
+   "202E",
+   "RTL override"
+  ],
+  [
+   "2066",
+   "LTR isolate"
+  ],
+  [
+   "2067",
+   "RTL isolate"
+  ],
+  [
+   "2068",
+   "first strong isolate"
+  ],
+  [
+   "2069",
+   "pop isolate"
+  ]
+ ],
+ "spaces": [
+  [
+   "00A0",
+   "no-break space"
+  ],
+  [
+   "202F",
+   "narrow no-break space"
+  ],
+  [
+   "2009",
+   "thin space"
+  ],
+  [
+   "200A",
+   "hair space"
+  ],
+  [
+   "2007",
+   "figure space"
+  ],
+  [
+   "3000",
+   "ideographic space"
+  ]
+ ],
+ "typographic": [
+  [
+   "2014",
+   ", "
+  ],
+  [
+   "2013",
+   "-"
+  ],
+  [
+   "2212",
+   "-"
+  ],
+  [
+   "2026",
+   "..."
+  ],
+  [
+   "201C",
+   "\""
+  ],
+  [
+   "201D",
+   "\""
+  ],
+  [
+   "201E",
+   "\""
+  ],
+  [
+   "2018",
+   "'"
+  ],
+  [
+   "2019",
+   "'"
+  ],
+  [
+   "2022",
+   "-"
+  ]
+ ],
+ "delete": {
+  "ru": [
+   "важно отметить, что",
+   "стоит отметить, что",
+   "стоит упомянуть, что",
+   "не секрет, что",
+   "следует подчеркнуть, что",
+   "нельзя не отметить, что",
+   "в современном мире",
+   "в наши дни",
+   "в современных реалиях",
+   "на сегодняшний день",
+   "давайте разберёмся",
+   "давайте разберемся",
+   "без лишних слов",
+   "как известно,",
+   "как мы знаем,",
+   "в заключение хочется сказать, что",
+   "подводя итог,",
+   "в целом,"
+  ],
+  "en": [
+   "it's important to note that",
+   "it is important to note that",
+   "it's worth noting that",
+   "in today's fast-paced world",
+   "in today's world",
+   "in this day and age",
+   "without further ado",
+   "let's dive in",
+   "let's dive into",
+   "at the end of the day,"
+  ]
+ },
+ "flag": {
+  "ru": {
+   "погрузиться": "конкретный глагол: разобраться, прочитать",
+   "погрузимся": "просто начните",
+   "раскрыть потенциал": "что именно станет лучше и насколько",
+   "играет ключевую роль": "что именно от этого зависит",
+   "является свидетельством": "доказывает, показывает",
+   "бесшовный": "без сбоев, без лишних шагов",
+   "экосистема": "набор, сервисы, всё вместе",
+   "безграничные возможности": "назовите две конкретные",
+   "уникальный": "чем именно отличается",
+   "революционный": "что именно изменилось",
+   "невероятно": "насколько именно, цифрой",
+   "потрясающе": "что именно хорошо",
+   "кардинально": "во сколько раз",
+   "путешествие": "путь, опыт, или просто убрать",
+   "настоящий прорыв": "что изменилось и на сколько",
+   "меняет правила игры": "что теперь делают иначе",
+   "таким образом": "поэтому, или убрать",
+   "более того": "и ещё, или убрать",
+   "помимо этого": "ещё, или убрать",
+   "в рамках": "в, при, на",
+   "осуществлять": "делать",
+   "данный": "этот",
+   "является": "это, или перестроить фразу",
+   "максимально": "очень, или убрать",
+   "комплексный": "полный, или перечислить",
+   "ключевой": "главный, или убрать",
+   "инновационный": "новый, и чем",
+   "эффективный": "цифрой: быстрее, дешевле на сколько",
+   "лайфхак": "приём, способ",
+   "мощный": "что именно умеет",
+   "идеальный": "подходящий, и для чего"
+  },
+  "en": {
+   "delve": "look at, dig into",
+   "leverage": "use",
+   "robust": "solid, or say how",
+   "seamless": "smooth, or say how",
+   "crucial": "important, or say why",
+   "testament to": "shows",
+   "unlock": "get, open",
+   "game changer": "say what changed",
+   "tapestry": "mix",
+   "realm": "area",
+   "elevate": "improve, raise",
+   "embark": "start",
+   "journey": "cut it",
+   "navigate": "handle, deal with",
+   "harness": "use",
+   "cutting-edge": "new, and how",
+   "revolutionize": "change, and how",
+   "utilize": "use",
+   "plethora": "many",
+   "myriad": "many",
+   "furthermore": "also, or cut",
+   "moreover": "also, or cut"
+  }
+ },
+ "bait": {
+  "ru": [
+   "подпишись",
+   "подписывайтесь",
+   "ставь лайк",
+   "ставьте лайк",
+   "жми колокольчик",
+   "отметь друга",
+   "отметь подругу",
+   "сохрани, чтобы не потерять",
+   "перешли тому, кто",
+   "досмотри до конца",
+   "смотри до конца",
+   "не листай",
+   "листай дальше"
+  ],
+  "en": [
+   "follow for more",
+   "smash that like",
+   "tag someone who",
+   "double tap if",
+   "stop scrolling",
+   "in today's video",
+   "watch till the end",
+   "link in bio for more",
+   "the algorithm loves",
+   "run don't walk"
+  ]
+ },
+ "structures": {
+  "ru": [
+   {
+    "id": "not-just",
+    "pattern": "(?i)\\b(это|дело)\\s+не\\s+(просто|только)\\b[^.!?]{0,60}[,.:]\\s*(это|а|но)\\b",
+    "message": "«это не просто X, это Y»: скажите Y сразу"
+   },
+   {
+    "id": "not-only",
+    "pattern": "(?i)\\bне\\s+только\\b[^.!?]{0,80}\\bно\\s+и\\b",
+    "message": "«не только..., но и...»: одна мысль за раз"
+   },
+   {
+    "id": "triad",
+    "pattern": "\\b[\\w-]+,\\s+[\\w-]+\\s+и\\s+[\\w-]+\\b",
+    "message": "тройка через запятую и «и»: возможно, шаблонный ритм"
+   },
+   {
+    "id": "one-word-q",
+    "pattern": "(?m)^\\s*[А-ЯЁ][а-яё]+\\?\\s*$",
+    "message": "вопрос из одного слова («Результат?»): уберите театральную паузу"
+   },
+   {
+    "id": "preamble",
+    "pattern": "(?i)\\b(в\\s+этом\\s+(видео|ролике|посте)\\s+(я|мы)\\s+(расскажу|покажу|разберу))\\b",
+    "message": "вступление о том, что будет: просто покажите"
+   },
+   {
+    "id": "emoji-bullets",
+    "pattern": "(?m)^\\s*[\\U0001F300-\\U0001FAFF☀-➿]\\s*\\S",
+    "message": "список с эмодзи вместо маркеров"
+   },
+   {
+    "id": "caps",
+    "pattern": "\\b[А-ЯЁ]{3,}\\s+[А-ЯЁ]{3,}\\s+[А-ЯЁ]{3,}\\b",
+    "message": "три слова капсом подряд читаются как крик"
+   },
+   {
+    "id": "hashtag-wall",
+    "pattern": "(#[\\wЀ-ӿ]+\\s*){6,}",
+    "message": "стена хештегов"
+   }
+  ],
+  "en": [
+   {
+    "id": "not-just",
+    "pattern": "(?i)\\b(it's|it is|this is)\\s+not\\s+(just|only)\\b[^.!?]{0,60}[,.;:]\\s*(it's|it is|but)\\b",
+    "message": "'it's not just X, it's Y': say Y"
+   },
+   {
+    "id": "not-only",
+    "pattern": "(?i)\\bnot\\s+only\\b[^.!?]{0,80}\\bbut\\s+also\\b",
+    "message": "'not only... but also': one idea at a time"
+   },
+   {
+    "id": "triad",
+    "pattern": "\\b\\w+,\\s+\\w+,?\\s+and\\s+\\w+\\b",
+    "message": "rule-of-three triad: maybe a templated rhythm"
+   },
+   {
+    "id": "one-word-q",
+    "pattern": "(?m)^\\s*[A-Z][a-z]+\\?\\s*$",
+    "message": "one-word question line ('The result?'): drop the staged pause"
+   },
+   {
+    "id": "preamble",
+    "pattern": "(?i)\\bin\\s+this\\s+(video|post)\\s+i('m| am)?\\s+(going to|will)\\b",
+    "message": "preamble: just show it"
+   },
+   {
+    "id": "emoji-bullets",
+    "pattern": "(?m)^\\s*[\\U0001F300-\\U0001FAFF☀-➿]\\s*\\S",
+    "message": "emoji bullet list"
+   },
+   {
+    "id": "caps",
+    "pattern": "\\b[A-Z]{3,}\\s+[A-Z]{3,}\\s+[A-Z]{3,}\\b",
+    "message": "three shouted words in a row"
+   },
+   {
+    "id": "hashtag-wall",
+    "pattern": "(#\\w+\\s*){6,}",
+    "message": "hashtag wall"
+   }
+  ]
+ }
+}
